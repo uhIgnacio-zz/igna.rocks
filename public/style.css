@@ -3,22 +3,3 @@ body {
   margin: auto;
   max-width: 1280px;
 }
-
-.navbar {
-  background-color: #313236;
-  border-radius: 2px;
-  max-width: 800px;
-}
-
-.navbar a {
-  color: #aaa;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  color: #ffffff;
-}
-
