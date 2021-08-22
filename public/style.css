@@ -1,24 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body {
-  font-family: sans-serif;
-  margin: auto;
-  max-width: 1280px;
+	background: black;
+	color: white;
+	font-family: monospace;
+	font-size: 13px;
 }
 
-.navbar {
-  background-color: #313236;
-  border-radius: 2px;
-  max-width: 800px;
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
-.navbar a {
-  color: #aaa;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px;
-  text-decoration: none;
+input {
+	display: block;
+	background: black;
+	color: white;
+	width: 250px;
+	padding: 5px 4px;
+	margin: 2px 0 6px 0;
+	border: 1px solid #ff5252;
+	text-align: center;
+	font-size: 13px;
+	font-family: monospace;
 }
 
-.navbar a:hover {
-  color: #ffffff;
+input::-ms-reveal,
+input::-ms-clear {
+	display: none;
 }
 
+input[type='submit'] {
+	width: 150px;
+}
+
+a {
+	color: #ff5252;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.content-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
+
+#toast-container {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+
+.toast {
+	width: 300px;
+	background-color: #000 !important;
+	padding: 8px;
+	font-size: 16px;
+}
+
+.toast-error {
+	border: 1px solid #ff5252;
+}
+
+.toast-success {
+	border: 1px solid #5be941;
+}
