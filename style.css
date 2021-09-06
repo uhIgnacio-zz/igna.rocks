@@ -90,10 +90,10 @@ pre {
   color: purple;
   background: repeating-linear-gradient(
     120deg,
-    orange 0%,
-    yellow 12.5%,
-    red 37.5%,
-    orange 60%
+    lightgray 0%,
+    gray 12.5%,
+    black 37.5%,
+    white 60%
   );
   background-size: 60vw 60vw;
   -webkit-text-fill-color: transparent;
@@ -119,10 +119,10 @@ pre {
   height: 38px;
   background: repeating-linear-gradient(
     120deg,
-    pink 0%,
-    purple 12.5%,
-    white 37.5%,
-    pink 60%
+    white 0%,
+    gray 12.5%,
+    black 37.5%,
+    gray 60%
   );
   background-size: 60vw 60vw;
   animation: slide 10s linear infinite forwards;
