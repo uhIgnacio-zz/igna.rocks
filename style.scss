@@ -1,0 +1,36 @@
+.menu_simple {
+    width: 100%;
+    background-color: #005555;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        float: left;
+
+        li {
+            display: inline;
+
+            a {
+                float: left;
+                text-decoration: none;
+                color: white;
+                padding: 10.5px 11px;
+                background-color: #005555;
+
+                &:visited {
+                    color: white;
+                }
+
+                &:hover {
+                    color: white;
+                    background-color: #5FD367;
+                }
+            }
+
+            .current {
+                color: white;
+                background-color: #5FD367;
+            }
+        }
+    }
+}
