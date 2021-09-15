@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+a {
+  color: #ff5252;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.content-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
