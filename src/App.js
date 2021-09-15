@@ -17,16 +17,12 @@ function App() {
       <meta charSet="UTF-8" />
       <meta property="og:title" content="igna.rocks" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" href="assets/favicon.png" />
-      <meta property="og:description" content="igna > you." />
+      <meta property="og:image" href="image.gif" />
+      <meta name="description" content="igna > you" />
       <meta property="og:url" content="https://igna.rocks" />
       <meta name="theme-color" content="#bbaaee" />
-      <link rel="icon" type="image/png" href="assets/favicon.png" />
-      <link rel="stylesheet" href="css/rain.css" />
+      <link rel="icon" type="image/png" href="favicon.png" />
       <link rel="stylesheet" href="css/main.css" />
-      <audio autoPlay>
-        <source src="./assets/only_one.mp3" type="audio/mpeg" />
-      </audio>
       <div className="content-main">
         <h1>root@igna.rocks</h1>
         <br />
@@ -40,14 +36,14 @@ function App() {
           <Button
             variant="contained"
             color="secondary"
-            href="https://discord.com/users/886994695648051270"
+            href="https://discord.com/users/881376072015417375"
           >
             Discord
           </Button>
           <Button
             variant="contained"
             color="primary"
-            href="https://bio.igna.rocks"
+            href="https://e.rip/dolor"
           >
             Bio
           </Button>
