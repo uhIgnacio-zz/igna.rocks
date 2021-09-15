@@ -1,4 +1,5 @@
 import "./css/main.css";
+import "./css/rain.css";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
@@ -15,13 +16,7 @@ function App() {
   return (
     <div className="App">
       <meta charSet="UTF-8" />
-      <meta property="og:title" content="igna.rocks" />
-      <meta property="og:type" content="website" />
-      <meta property="og:image" href="image.gif" />
-      <meta name="description" content="igna > you" />
-      <meta property="og:url" content="https://igna.rocks" />
-      <meta name="theme-color" content="#bbaaee" />
-      <link rel="icon" type="image/png" href="favicon.png" />
+      <link rel="stylesheet" href="css/rain.css" />
       <link rel="stylesheet" href="css/main.css" />
       <div className="content-main">
         <h1>root@igna.rocks</h1>
@@ -56,7 +51,7 @@ function App() {
           </Button>
         </div>
       </div>
-      <p></p>
+      <p />
     </div>
   );
 }
