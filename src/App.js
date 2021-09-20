@@ -31,7 +31,7 @@ function App() {
           <Button
             variant="contained"
             color="secondary"
-            href="https://discord.com/users/881376072015417375"
+            href="https://discord.com/users/888960947438370837"
           >
             Discord
           </Button>
